@@ -52,3 +52,35 @@ textarea{
     top: -62px;
 }
 
+.form-header{
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+.form-header p{
+    border-bottom: 2px solid #024059;
+    color:#024059;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;   
+    
+}
+
+.container-formulary{
+    padding: 30px;
+}
+
+.container-tittle{
+    margin-bottom: 15px;
+   
+}
+.container-tittle p, h1{
+    margin-top: 20px;
+}
+
+.container-formulary p{
+    margin-bottom: 20px;
+}
+

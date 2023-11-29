@@ -41,5 +41,8 @@ input[type="file"]{
 .container-formulary{
     background-color: #fdfdfd;
     width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
 }
 

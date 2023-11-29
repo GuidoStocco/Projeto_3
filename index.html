@@ -20,7 +20,17 @@
             <form>  
                 <div class="box-input">
                     <label for="title">Título do anúncio <span class="required-field"></span>*</label>
-                    <input type="text" name="tittle" id="tittle" class="block" placeholder="Um título para anúnciar seu carro" minlength="1" maxlength="30">
+                    <input type="text" name="tittle" id="tittle" class="block" placeholder="Um título para anúnciar seu carro" required minlength="1" maxlength="30">
+                </div>
+
+                <div class="box-input">
+                    <label for="price">Preço <span class="required-field"></span>*</label>
+                    <input type="number" name="price" id="price" class="block" placeholder="Defina o preço" required>
+                </div>
+
+                <div class="box-input">
+                    <label for="description">Descrição <span class="required-field"></span>*</label>
+                    <textarea name="description" id="description" class="block" placeholder="Aqui você coloca os detalhes do veículo, por exemplo: se ele tem algum arranhão." rows="5" ></textarea>
                 </div>
             </form>     
         </div>  
